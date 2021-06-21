@@ -1,0 +1,70 @@
+hashcat (v5.1.0) starting...
+
+OpenCL Platform #1: The pocl project
+====================================
+* Device #1: pthread-Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz, 4096/13908 MB allocatable, 8MCU
+
+Counting lines in archivosDrive/Hashes/archivo_5...[2KCounted lines in archivosDrive/Hashes/archivo_5...[2KParsing Hashes: 1/20 (5.00%)...[2KParsed Hashes: 20/20 (100.00%)[2KSorting hashes...[2KSorted hashes...[2KRemoving duplicate hashes...[2KRemoved duplicate hashes...[2KSorting salts...[2KSorted salts...[2KComparing hashes with potfile entries...[2KCompared hashes with potfile entries...[2KGenerating bitmap tables...[2KGenerated bitmap tables...[2KHashes: 20 digests; 20 unique digests, 20 unique salts
+Bitmaps: 16 bits, 65536 entries, 0x0000ffff mask, 262144 bytes, 5/13 rotates
+Rules: 1
+
+Applicable optimizers:
+* Zero-Byte
+* Uses-64-Bit
+
+Minimum password length supported by kernel: 0
+Maximum password length supported by kernel: 256
+
+[33mATTENTION! Pure (unoptimized) OpenCL kernels selected.[0m
+[33mThis enables cracking passwords and salts > length 32 but for the price of drastically reduced performance.[0m
+[33mIf you want to switch to optimized OpenCL kernels, append -O to your commandline.[0m
+[33m[0m
+Watchdog: Hardware monitoring interface not found on your system.
+Watchdog: Temperature abort trigger disabled.
+
+Initializing device kernels and memory...[2KInitializing OpenCL runtime for device #1...[2K[33m* Device #1: build_opts '-cl-std=CL1.2 -I OpenCL -I /usr/share/hashcat/OpenCL -D LOCAL_MEM_TYPE=2 -D VENDOR_ID=64 -D CUDA_ARCH=0 -D AMD_ROCM=0 -D VECT_SIZE=4 -D DEVICE_TYPE=2 -D DGST_R0=0 -D DGST_R1=1 -D DGST_R2=2 -D DGST_R3=3 -D DGST_ELEM=16 -D KERN_TYPE=1800 -D _unroll'[0m
+Initialized OpenCL runtime for device #1...[2KInitialized device kernels and memory...[2KDictionary cache hit:
+* Filename..: archivosDrive/diccionarios/diccionario_2.dict
+* Passwords.: 316096
+* Bytes.....: 3040023
+* Keyspace..: 316096
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>                                                  $6$vW0oqXCdz$GPAjqxRwnqoIbBDG/ugllGHgKgt5jVzryoKjY5DZ3taQJ3D9EQ24CCuejwvHpkI.UVGduw7p4WtJBjVVtc59F1:24budlight
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>                                                  $6$KTozwWPVh4NP4$NkQKmy5kde.x5efqgWt80i6h7zHy.oCPBC1PMaEpjx6u7D1BDgYER36h8djhhcOkSyj2lCOIXhsxtFp8bp5.Q0:238powell
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>                                                  $6$Z1o8N9w/kP$8Z64r.66WSZ4ywIbQDCwoXDW9uoZJmC2NhWn3hMyMVuy6R8VMPgDnIjBdTmhc5aLw4VfRL.puURqChkJlFcJg.:5hvVeFbK
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>                                                  $6$3AD/eWaNLQRiwg1S$EvoFQfAxR.U8eUxENeFuwRHqNTzgIoiG.N76.1CkvUOLbmV.RgRyOtxqYsSaq2WTndBHPyBT.TsvZGMPtARgi.:50239162
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>                                                  $6$47WsufbTcZS3T$omZtyMPQ.PkVNp2dlINjyVABhd33.hBQAisUFFrodMBVhyP.sPEUNxuTsYOBYolsmLFlNTQFJfcI91Hg0iUOx0:760122
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>                                                  $6$wV5dqqQZaqZ$uFleYpjpiWLyAZPuWlbpW.3DcM8fDpNOrAoGylCLrPEbsGijphHIJICRnW5.7L5Aqi3BQne8eBLa88qiM7wdl.:bscape
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>                                                  $6$B2cIEdQ7og.9wLq$xVuzXc1hMvCZ4SzbyEuCJXTKuwjJ45dOsHQLM0.RZA1FeKfFBPc.hDIcF3WPISXBx.U2sbWxPDme3zEbqGlZe/:chanaboy
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>                                                  $6$FDPVwyoPy$5TJsf3LK0U0gkKZQfUQVzlEHAQvUr3F7F62fl3qIywACnILURWdNr.SX0M8.WoYTF8XTyLffWR.xAwn6MUSKB1:driveher
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>                                                  $6$FtWoxTWr$TUXbXiKxU96slCrJPJmUdzkRKsYzOiQ4Z8BHLjZIokN1HKhb33rALcXdg6TPWbLqr3dlEDXj4Qwquz1TU0Ysh/:freelancer
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>                                                  $6$52.E7tifH3aE$LMl14unWolv.7nbKkzcPcCx55ntyF06lyvUski5p6RyqyJDy7/7usN5z2HL8mh3LjtMVTkzDXTUlYzHIrtwPJ1:jc8889
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>                                                  $6$F.pSKB1GZX$k14H9cEJLDnVMe5PYxcDt5HJQwerOgha6v00RI1MIoOIKYXHsebf1VhhXXKrYdKx5y3eDt9G7d5YMNAvdx1Bv/:knauty1
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>                                                  $6$By31/KT6$3S9ZwCUDGQee.Poq4mbwVwkjWVOH6lSHNok0NPFc704EZaORldONHYB2rgwtfnpIukjNLp7wshDg1oydmiQNp/:lisa99
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>                                                  $6$icQLRuigHGe/7$hGAofuQQwSFVcRnzxpyDhzXm8aCbhl44iDRac8ACyveHVAfCq0dts2VA.bFYJrybuOT2KJLvqRvXoDT/k64.T1:marwah
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>                                                  $6$k6TwXmlTNH/WI$Cq0e3s5HvQ6neGvI9rl3Jkcl2vQznzk7yT7OpVvg7UCtBuQtMqRiGAB4SQ.ADgzCOg7RhbJurPU0/nDn1sur4/:mark1000
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>                                                  $6$nSTvSwXyaqoWdtp$wN/OwjU1XcgQPmJyiijwUcb14N0NJVzdcn6BYQLstjspMbFBWthitMShcwnQSYMRGUTnv8TTig1OshQZXNTBa/:miklny33
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>                                                  $6$23F56G16P$6AuUxsN1/Wxu8vMf5mKwWu4gKI9WnWPt.Ao36FQ8lg7.kHI20JmkTJpniFzv0rU5tlg5kM/2bfGZcHJT858kr1:neptunesurfing
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>                                                  $6$HhD7mf0Z8YJuZcFY$kGbTfxvqYVFR2ysVrHHWGjZ..gpkwgkdIZ73M8gk.253wOUlyuR3w85pqvp/nD5ZEBjDQGuQXTap.ABH4OgGM0:Ranruin
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>                                                  $6$4YTAoSNGt$iQf4Xei6ccoOZiaamWcwZrRQqb99h39jpG1SjzgZ8fA1PPQkuSyBaj1w.oju/OdxTieU37Si/A6rCNPcPrxfF/:sal2806
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>                                                  $6$1h6rEIUAn$R0xx196.lWP55n/fho3L65ZizEx3Uzoy3TpQXpQdSqlebIjoW7yT76ailGK0LfAPEQuBZJOyaBMQ.bgNkMWKT1:szew3032
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>                                                  $6$t7eoMz8KOlBIM$nGB8ETF73UFPWMOb.pmJOg5ES1.sXFUOaR3dQmUhFu7kdCiFULSKgm8QZmtjjJAaMHxWyLOftVJr1HWf00Fzh.:tsavo
+                                                 
+Session..........: hashcat
+Status...........: Cracked
+Hash.Type........: sha512crypt $6$, SHA512 (Unix)
+Hash.Target......: archivosDrive/Hashes/archivo_5
+Time.Started.....: Fri Jun 18 01:04:12 2021 (43 mins, 8 secs)
+Time.Estimated...: Fri Jun 18 01:47:20 2021 (0 secs)
+Guess.Base.......: File (archivosDrive/diccionarios/diccionario_2.dict)
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:     1136 H/s (352.03ms) @ Accel:1024 Loops:256 Thr:1 Vec:4
+Recovered........: 20/20 (100.00%) Digests, 20/20 (100.00%) Salts
+Progress.........: 5840896/6321920 (92.39%)
+Rejected.........: 0/5840896 (0.00%)
+Restore.Point....: 286720/316096 (90.71%)
+Restore.Sub.#1...: Salt:12 Amplifier:0-1 Iteration:4864-5000
+Candidates.#1....: toba85 -> uruQRJuM
+
+Started: Fri Jun 18 01:04:10 2021
+[2KStopped: Fri Jun 18 01:47:22 2021
